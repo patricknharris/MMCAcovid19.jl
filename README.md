@@ -1,5 +1,17 @@
 # MMCAcovid19.jl
+JTMatamals created great package with sufficient parameters for initial usage.
+Likely that Covid crisis will continue as it mutates within its relationships with population genetics.
+Experimenting on adding additional parameters to cover:
+1) environmental conditions - humidity, temperature, wind speed, aqi, other aerosols
+2) geospatial - density, altitude, local terrain, neighborhood characteristics - city, farm, suburb, etc
+3) guidance policies - social distancing, other mandates, % of population following guidance
+4) genetic mutations - % of current population, 3 variants exist
+   a) the UK variant is 70% greater transmissions
+   b) the South African RBM - RNA Bonding Motif - that has replaced one of the vacine targets
+   c) the Netherlands variant (now in LA) - the L452R initial reports suggest that vaccine will be ineffective
+   d) other variants - yet to be named that will be propagating across the populations.
 
+For instance, Los Angeles and San Franciso have similar density and guidance policies, yet LA pandemic has ballooned in recent weeks.
 [![Build Status](https://travis-ci.com/jtmatamalas/MMCAcovid19.jl.svg?branch=master)](https://travis-ci.com/jtmatamalas/MMCAcovid19.jl)
 [![][docs-latest-img]][docs-latest-url]
 
